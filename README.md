@@ -1,4 +1,4 @@
-# webpack-starter-config
+# webpack-starter-config with typescript and scss
 
 Simple webpack configuration with babel, sass and webpack-dev-server.
 
