@@ -1,6 +1,6 @@
 {
   "name": "webpack-starter-config",
-  "version": "4.8.1",
+  "version": "0.0.1",
   "description": "Simple webpack config",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,15 @@
     "babel",
     "sass"
   ],
-  "author": "LeeSwagger",
+  "author": "Emosewa",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LeeSwagger/webpack-starter/issues"
   },
   "homepage": "https://github.com/LeeSwagger/webpack-starter#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.110",
+    "awesome-typescript-loader": "^5.1.1",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.0",
@@ -42,6 +44,8 @@
     "rimraf": "^2.6.2",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
+    "tslint": "^5.10.0",
+    "tslint-loader": "^3.6.0",
     "uglifyjs-webpack-plugin": "^1.2.3",
     "webpack": "^4.8.1",
     "webpack-cli": "^2.1.3",
