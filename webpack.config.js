@@ -4,7 +4,7 @@ const ARGV = require('yargs').argv;
 const IS_DEVELOPMENT = ARGV.mode === 'development';
 const IS_PRODUCTION = !IS_DEVELOPMENT;
 const ROOT = PATH.join(__dirname, '' );
-const DIST_PATH = PATH.join(__dirname, '/public');
+const DIST_PATH = PATH.join(__dirname, '/dist');
 
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
@@ -105,7 +105,8 @@ const CONFIG = {
       chunkFilename: '[id].css'
     }),
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
+      hash: true
     }),
     new CheckerPlugin()
   ],

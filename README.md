@@ -10,7 +10,7 @@ Js and css will minify in production mode.
 npm start
 ```
 
-In this mode *.css and *.js will  remove from /public folder.
+In this mode *.css and *.js will  remove from /dist folder.
 
 ## Production mode
 
@@ -18,4 +18,4 @@ In this mode *.css and *.js will  remove from /public folder.
 npm run build
 ```
 
-Assets (*.css and *.js) will save in /public folder.
+Assets (*.css and *.js) will save in /dist folder.
